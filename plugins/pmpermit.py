@@ -47,12 +47,9 @@ You have {}/{} warnings!"""
 else:
     UNAPPROVED_MSG = (
         """
-**PMSecurity of {}!**"""
+**PMSecurity of {}!**"""\n
         f"""{Redis("PM_TEXT")}"""
         """
-Please wait for me to respnd or you will be blocked and reported as spam!!
-
-You have {}/{} warnings!"""
     )
 
 UND = "Please wait for me to respnd or you will be blocked and reported as spam!!"
