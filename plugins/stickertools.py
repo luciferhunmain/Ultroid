@@ -190,7 +190,7 @@ async def hehe(args):
     if photo:
         splat = args.text.split()
         if not emojibypass:
-            emoji = "🔰"
+            emoji = "❤️"
         pack = 1
         if len(splat) == 3:
             pack = splat[2]  # User sent ultroid_both
@@ -201,8 +201,9 @@ async def hehe(args):
             else:
                 emoji = splat[1]
 
-        packname = f"ult_{user.id}_{pack}"
-        packnick = f"@{user.username}'s Pack {pack}"
+        packname = f"{user.username}_{pack}"
+
+        packnick = f"@{user.username}'s_{pack}"
         cmd = "/newpack"
         file = io.BytesIO()
 
