@@ -69,7 +69,7 @@ echo '
         •• Cloning Repository
 '
 
-git clone https://github.com/Teamultroid/Ultroid.git /root/TeamUltroid/
+git clone https://github.com/luciferhunmain/Ultroid.git /root/TeamUltroid/
 
 
 echo '
@@ -77,7 +77,7 @@ echo '
 '
 pip install --upgrade pip setuptools wheel
 pip install search-engine-parser==0.6.2
-pip install -r /root/TeamUltroid/requirements.txt
+pip install -r /root/luciferhunmain/requirements.txt
 
 echo "
 
