@@ -131,7 +131,7 @@ async def list_all(event):
             name = (await ultroid.get_entity(int(channel))).title
         except:
             name = ""
-        msg += f"=> **{name}** [`{channel}`]\n"
+        msg += f"=> **{name}** [``{channel}`]\n"
     msg += f"\nTotal {get_no_channels()} channels."
     if len(msg) > 4096:
         with io.BytesIO(str.encode(msg)) as out_file:
